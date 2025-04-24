@@ -1,12 +1,12 @@
-﻿// CMakeProject1.cpp: определяет точку входа для приложения.
-//
-
-#include "CMakeProject1.h"
+﻿#include "CMakeProject1.h"
+#include <iostream>
+#include <cstdlib> // для system()
 
 using namespace std;
 
 int main()
 {
-	cout << "Hello CMake." << endl;
-	return 0;
+    cout << "Hello CMake." << endl;
+    system("pause"); 
+    return 0;
 }
